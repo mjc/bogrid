@@ -1,4 +1,4 @@
-[bogrid](http://twitter.github.com/bogrid)
+bogrid
 =================
 
 Simple grid overlay for Twitter [Bootstrap](https://github.com/twitter/bootstrap).
@@ -6,17 +6,17 @@ Simple grid overlay for Twitter [Bootstrap](https://github.com/twitter/bootstrap
 To use it just include the code when in development environment:
 
 `````javascript
-<script type="text/javascript" src="https://raw.github.com/ricardovf/bogrid/master/bogrid.js"></script>
+<script type="text/javascript" src="https://raw.github.com/mjc/bogrid/master/bogrid.js"></script>
 `````
 
-Then use `Command+G` or `CTRL+G` to show the grid.
+Then use `Command+Enter` or `CTRL+Enter` to show the grid.
 
 > Only tested on Google Chrome.
 
 Screenshot
 -------
 
-![bogrid](https://raw.github.com/ricardovf/bogrid/master/bogrid.jpg "bogrid")
+![bogrid](https://raw.github.com/mjc/bogrid/master/bogrid.jpg "bogrid")
 
 Favorite Mode
 -------
@@ -25,16 +25,20 @@ If you wanna test it, just add [bogrid](http://twitter.github.com/bogrid) to you
 
 `````javascript
 var bogridinject = document.createElement('script');
-bogridinject.src='https://raw.github.com/ricardovf/bogrid/master/bogrid.js';
+bogridinject.src='https://raw.github.com/mjc/bogrid/master/bogrid.js';
 document.body.appendChild(bogridinject);
 `````
 
-Author
+Authors
 -------
 
 **Ricardo Fritsche**
 
 + https://github.com/ricardovf
+
+**Michael Cohen**
+
++ https://github.com/mjc
 
 
 

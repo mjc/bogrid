@@ -1,7 +1,7 @@
 /* ==========================================================
  * bogrid.js v0.9
  *
- * Simple grid overlay for Twitter Bootstrap (Just include it and hit Command+G or CTRL+G)
+ * Simple grid overlay for Twitter Bootstrap (Just include it and hit Command+Enter or CTRL+Enter)
  *
  * https://github.com/ricardovf/bogrid
  * ==========================================================
@@ -55,7 +55,7 @@
     }
 
     $(document.body).on('keydown.bogrid', function(event){
-      if (event.which === 66 && event.metaKey) {
+      if (event.which === 13 && event.metaKey) {
         $this.toggle()
       }
 
